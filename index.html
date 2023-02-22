@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czwarty tydzień</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/image.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/link.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@300;700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+    <div class="container js-container">
+        <section class="section" id="o_autorze">
+            <h1 class="section__header">
+                <p class="section__header section__header--special">Michał Żelewski</p>
+            </h1>
+            <img class="image" width="300" height="300" src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/327397610_1039658350306359_6781505749900729352_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=zY4Yidl5StwAX9VOezi&_nc_ht=scontent-waw1-1.xx&oh=00_AfAl6PhasHeYbcLlKGLPk5byjpw2tsMIoXZZFAjyglTbtg&oe=63ECE4A0" alt="Czarno-białe">
+            <p>Mam na imię Michał. Z wykształcenia jestem masażysą, zawodowo masuję oraz pracuję z osobami z
+                niepełnosprawnością.
+                Mieszkam w małej, malowniczej wsi o zabawnej nazwie - <span>Karwieńskie Błoto Pierwsze</span>. W czasie
+                wolnym
+                dokształcam się i uprawiam sport, czytam książki, gram w szachy i oglądam filmy.
+            </p>
+            <button class="themeButton js-themeButton">Włącz <span class="themeName js-themeName">jasny</span> motyw</button>
+            <section class="section" id="section__2">
+                <h2 class="section__header section__header--high">Spis treści</h2>
+                <p class="section__paragraph">Wybierz sekcję, do której chcesz się udać:</p>
+                <div class="navigationList">
+                    <ol type="1">
+                        <div>
+                            <li>
+                                <a class="navigationList--anchor" title="kliknij aby prejść do wybranej sekcji" href="#o_autorze">O
+                                    autorze strony</a>
+                            </li>
+                            <li>
+                                <a class="navigationList--anchor" title="kliknij aby przejść do wybranej sekcji" href="#lista_filmów">Lista
+                                    ulubionych filmów</a>
+                            </li>
+                            <li>
+                                <a class="navigationList--anchor" title="kliknij aby przejść do wybranej sekcji" href="#lista_seriali">Lista
+                                    ulubionych seriali</a>
+                            </li>
+                            <li>
+                                <a class="navigationList--anchor" title="kliknij aby przejść do wybranej sekcji"
+                                    href="#historia_regionu">Historia
+                                    mojego regionu</a>
+                            </li>
+                            <li>
+                                <a class="navigationList--anchor" title="kliknij aby przejść do wybranej sekcji"
+                                    href="#kontakt">Kontakt</a>
+                            </li>
+                        </div>
+                    </ol>
+                </div>
+            </section>
+            <section class="section" id="lista_filmów">
+                <h3 class="section__header">Lista ulubionych filmów</h3>
+                <table class="table">
+                    <caption class="table__caption">
+                        <p>
+                            <a class="table__captionText" title="powrót do spisu treści"
+                                href="#o_autorze">Wróć
+                                do spisu
+                                treści</a>
+                        </p>
+                    </caption>
+                    <thead>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                            <th class="table__cell table__cell--header" scope="col">Gatunek</th>
+                            <th class="table__cell table__cell--header" scope="col">Zwiastun (link)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Bladeruner 2049</th>
+                            <td class="table__cell">SF / Akcja</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Blade+Runner+2049+Zwiastun+nr+1-42712">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Vampire Hunter D: Żądza krwi</th>
+                            <td class="table__cell">Film fantasy / Horror</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Vampire+Hunter+D%3A+%C5%BB%C4%85dza+krwi+Zwiastun+nr+1-12176">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Zielona Mila</th>
+                            <td class="table__cell">Film fanatsy / Dramat</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Zielona+mila+Zwiastun+nr+1-12910">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Forrest Gump</th>
+                            <td class="table__cell">Dramat / Romans</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Forrest+Gump+Zwiastun+nr+1-12744">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Nienawistna Ósemka</th>
+                            <td class="table__cell">Western / Dramat</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Nienawistna+%C3%B3semka+Zwiastun+nr+2+polski-37881">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Contratiempo</th>
+                            <td class="table__cell">Kryminał</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/film/Contratiempo.+Niewidzialny+go%C5%9B%C4%87-2016-754287">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Zaginiona Dziewczyna</th>
+                            <td class="table__cell">Thriller</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Zaginiona+dziewczyna+Zwiastun+nr+2+polski-33960">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Elizjum</th>
+                            <td class="table__cell">Akcja / Sensacja</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Elizjum+Zwiastun+nr+2+polski-31130">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Kapitan Ameryka - Wojna Bohaterów</th>
+                            <td class="table__cell">Akcja / SF</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Kapitan+Ameryka%3A+Wojna+bohater%C3%B3w+Zwiastun+nr+2+polski+dubbing-38676">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Mściciel</th>
+                            <td class="table__cell">Western</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.youtube.com/watch?v=Ek9CwmjisLE">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Logan: Wolverine</th>
+                            <td class="table__cell">Dramat / Akcja / SF</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Logan%3A+Wolverine+Zwiastun+nr+2+polski+dubbing-41791">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Czerwony Smok</th>
+                            <td class="table__cell">Thriller</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/film/Czerwony+smok-2002-32359">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Krucjata Borne'a</th>
+                            <td class="table__cell">Akcja / Sensacja</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Krucjata+Bourne%27a+Zwiastun+nr+1-13724">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Gran Torino</th>
+                            <td class="table__cell">Dramat</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/film/Gran+Torino-2008-476580">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Szeregowiec Ryan</th>
+                            <td class="table__cell">Wojenny</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Szeregowiec+Ryan+Zwiastun+nr+1-13134">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Most Szpiegów</th>
+                            <td class="table__cell">Dreszczowiec / Dramat</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Most+szpieg%C3%B3w+Zwiastun+nr+3+polski-37385">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Furia</th>
+                            <td class="table__cell">Dramat / Wojenny</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Furia+Zwiastun+nr+1+polski-34267">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Ruchomy zamek Hauru</th>
+                            <td class="table__cell">Fantasy / Familijny</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Ruchomy+zamek+Hauru+Zwiastun+nr+3+angielski-14779">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Gladiator</th>
+                            <td class="table__cell">Dranmat historyczny</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Gladiator+Zwiastun+nr+1-11250">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Sekretne życie Waltera Mitty</th>
+                            <td class="table__cell">Akcja / Komedia kryminalna</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Sekretne+%C5%BCycie+Waltera+Mitty+Zwiastun+nr+3+polski-31961">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Diuna</th>
+                            <td class="table__cell">SF</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Diuna+Zwiastun+nr+2+polski-58280">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Pasażerowie</th>
+                            <td class="table__cell">SF / Romans</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Diuna+Zwiastun+nr+2+polski-58280">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Skazani na Shawshank</th>
+                            <td class="table__cell">Dramat</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.bing.com/search?q=skazani+na+shawshank&cvid=67460847979c45268d7a50dded609ee7&aqs=edge.0.0j69i57j0l7.4527j0j4&FORM=ANAB01&PC=DCTS">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Skąpiec</th>
+                            <td class="table__cell">Komedia</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Dusigrosz+Zwiastun+nr+1+polski-40919">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="section" id="lista_seriali">
+                <h4 class="section__header">Lista ulubionych seriali</h4>
+                <table class="table">
+                    <caption class="table__caption">
+                        <p>
+                            <a class="table__captionText" title="powrót do spisu treści"
+                                href="#o_autorze">Wróć
+                                do spisu
+                                treści</a>
+                        </p>
+                    </caption>
+                    <thead>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                            <th class="table__cell table__cell--header" scope="col">Gatunek</th>
+                            <th class="table__cell table__cell--header" scope="col">Zwiastun (link)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Breaking Bad</th>
+                            <td class="table__cell">Kryminał</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.bing.com/videos/search?q=breaking+bad+zwiastun&view=detail&mid=5176E3B079FF232CC1F65176E3B079FF232CC1F6&FORM=VIRE">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Shingenki no Kyojin</th>
+                            <td class="table__cell">Fantasy / Animacja / Horror / Dystopia</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.bing.com/videos/search?q=shigenki+no+kyojin+zwiastun&docid=608026455966430725&mid=760B17A5561269895005760B17A5561269895005&view=detail&FORM=VIRE">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Dark</th>
+                            <td class="table__cell">Film fanatsy / Dramat</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Dark+sezon+3+Zwiastun+nr+5+%2C+polski-54100">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Squit Game</th>
+                            <td class="table__cell">Dramat / Thriller</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Squid+Game+Zwiastun+nr+1+polski-58731">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Archiwum 81</th>
+                            <td class="table__cell">Horror</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.bing.com/videos/search?q=archiwum+81+trailer&view=detail&mid=8C08E3E02E9789F49DFF8C08E3E02E9789F49DFF&FORM=VIRE">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">After Life</th>
+                            <td class="table__cell">Mroczna komedia / Dramat</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/After+Life+sezon+3+Zwiastun+nr+3+%2C+polski-60036">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Wiedźmin</th>
+                            <td class="table__cell">Fantasy / Przygoda</td>
+                            <td class="table__cell">
+                                <p><a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Wied%C5%BAmin+sezon+2+Zwiastun+nr+6+%2C+polski-59431">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Arcane</th>
+                            <td class="table__cell">Animacja / Fantasy / Przygodowy</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Arcane+Zwiastun+nr+2+polski-59448">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Gambit Królowej</th>
+                            <td class="table__cell">Dramat</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Gambit+kr%C3%B3lowej+Zwiastun+nr+1+polski-55194">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Hajime no Ippo</th>
+                            <td class="table__cell">Anime / Sport</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.bing.com/videos/search?q=hajime+no+ippo+triailer&view=detail&mid=E1A77FC0782910A07546E1A77FC0782910A07546&FORM=VIRE">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="tableRow">
+                            <th class="table__cell table__cell--header" scope="row">Altered Carbon - sezon I</th>
+                            <td class="table__cell">Thriller / SF</td>
+                            <td class="table__cell">
+                                <p>
+                                    <a class="link" rel="noreferrer noopener" target="_blank" title="zwiastun filmu"
+                                        href="https://www.filmweb.pl/video/Zwiastun/Altered+Carbon+Zwiastun+nr+1+polski-45048">zwiastun</a>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+            <section class="section" id="historia_regionu">
+                <h5 class="section__header">
+                    <p class="section__header--paragraph">KARWIEŃSKIE BŁOTA</p>
+                </h5>
+                <p class="section__paragraph">
+                    <strong>Karwieńskie Błota</strong> to malownicze miejscowości położone tuż przy linii brzegowej Bałtyku.
+                    Powstały w
+                    wyniku
+                    osuszania terenów przez osadników olenderskich sprowadzonych na te ziemie w 1599r przez Jakuba
+                    Wejhera.
+                    Tereny te jako zabytek chronione są prawem aby utworzone systemy melioracyjne pozostały
+                    nienaruszone.
+                    Naruszenie ich drożności wiązałoby się z groźbą ponownego podtopienia tych depresyjnych terenów.
+                    Jest to
+                    wspaniałe miejsce o magicznym krajobrazie, które warto odwiedzić w wolnej chwili lub podczas urlopu
+                    wypoczynkowego chcąc go spędzić na łonie natury. Zachęcam do zapoznania się z dokładniejszym opiem
+                    miejscowości oraz histori tych terenów, który znajdziesz w poniższym odnośniku:
+                <p class="section__paragraph--special">
+                    <a class="section__paragraph--link" rel="noreferrer noopener" target="_blank"
+                        title="czytaj więcej o historii regionu"
+                        href="https://pl.wikipedia.org/wiki/Karwie%C5%84skie_B%C5%82oto_Pierwsze">Karwirńskie
+                        Błoto Pierwsze</a>
+                </p>
+            </section>
+            <section class="section" id="kontakt">
+                <h1>Kontakt</h1>
+                <p>e-mail:
+                    <a class="section__paragraph--link" target="_blank" title="@poczta"
+                        href="mailto:michal.zelewski@onet.eu">michal.zelewski@onet.eu</a>
+                </p>
+            </section>
+    </div>
+</body>
+
+</html>

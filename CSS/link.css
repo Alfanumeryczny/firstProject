@@ -1,0 +1,20 @@
+.link {
+    color: #ecd23f;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: azure;
+}
+
+
+
+.section__paragraph--special {
+    text-align: center;
+    font-size: large;
+}
+
+.section__paragraph--link {
+    color: #ecd23f;
+    text-decoration: none;
+}

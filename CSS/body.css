@@ -1,0 +1,9 @@
+.body {
+    background: #454553;
+    font-family: 'Lato', sans-serif;
+}
+
+.body--light {
+    color: aliceblue;
+    background-color: #6e6f83;
+}

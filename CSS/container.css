@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    color: aliceblue;
+    background: #454553;
+}
+
+.container--light {
+    background: #6e6f83
+}

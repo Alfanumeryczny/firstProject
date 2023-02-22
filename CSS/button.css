@@ -1,0 +1,10 @@
+.themeButton {
+    color: aliceblue;
+    background-color: #454553;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.lightTheme {
+    color: white;
+    background-color: #27273a;
+}

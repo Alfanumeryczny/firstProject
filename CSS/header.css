@@ -1,0 +1,33 @@
+.section__header {
+    box-shadow: 2px 2px 2px 2px black;
+    text-align: center;
+}
+
+.section__header--special {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    text-decoration: underline;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.header__paragraphName {
+    box-shadow: 2px 2px 2px 2px black;
+    text-decoration: none;
+}
+
+.section__header--high {
+    box-shadow: 2px 2px 2px 2px black;
+    text-align: center;
+}
+
+.section__header--paragraph {
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 2px black;
+  
+}
+
